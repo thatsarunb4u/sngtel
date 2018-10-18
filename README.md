@@ -1,4 +1,4 @@
-# sngtel
+# Singtel - AnimalKingdom
 
 Hello there. Its a pleasure to work on the assignment.
 
@@ -22,6 +22,9 @@ http://localhost:8080/animal-kingdom-service/singInNativeRooster
 
 Since there wasn't much time, I'd only created the above two services as a PoC.
 
+I've attached the mindmap diagram that I was making while solutioning. Filename is MindMap.jpeg. Owing to lack of time, I couldn't draw a proper relationship diagram. Please reach out to me should you need one for better readability.
+
 For any queires, please reach out to me. 
 
 Had a wonderful experience working on this assignment. Can't wait to explain things during the face-to-face interview. Thanks for the opportunity given.
+
