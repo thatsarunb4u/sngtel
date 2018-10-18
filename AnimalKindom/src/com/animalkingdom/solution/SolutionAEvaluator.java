@@ -5,6 +5,7 @@ package com.animalkingdom.solution;
 
 import com.animalkingdom.entities.Chicken;
 import com.animalkingdom.entities.Duck;
+import com.animalkingdom.entities.Rooster;
 import com.animalkingdom.entities.TypicalBird;
 
 /**
@@ -33,6 +34,11 @@ public class SolutionAEvaluator {
 		Chicken chicken = new Chicken();
 		System.out.println("\nI am a Chicken");
 		chicken.sing();
+
+		//A3
+		Rooster rooster = new Rooster();
+		System.out.println("\nI am a Rooster. I am a sibling of Chicken");
+		rooster.sing();
 		
 	}
 
