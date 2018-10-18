@@ -11,7 +11,7 @@ import com.animalkingdom.behavior.TypicalWalker;
  * @author thats
  *
  */
-public class TypicalBird extends TypicalWalker implements Flyable, Singable {
+public class TypicalBird extends TypicalWalker implements Bird,Flyable, Singable {
 
 	/* (non-Javadoc)
 	 * @see com.animalkingdom.behavior.Flyable#fly()

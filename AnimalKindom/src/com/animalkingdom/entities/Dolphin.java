@@ -10,6 +10,6 @@ import com.animalkingdom.behavior.TypicalSwimmer;
  * A Dolphin that is not a fish but can still swim. Why must Fish takes all the fun!
  *
  */
-public class Dolphin extends TypicalSwimmer {
+public class Dolphin extends TypicalSwimmer implements Animal {
 
 }
