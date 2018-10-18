@@ -10,7 +10,21 @@ import com.animalkingdom.behavior.TypicalSwimmer;
  * A typical fish can Swim. But can't sing or walk. So sad.
  */
 public class TypicalFish extends TypicalSwimmer implements Fish {
+	
+	private String size;
+	private String color;
 
-	//Since there is no variation of swimming is expected in requirements, reusing the concrete class of typical swimmer
+	public String getSize() {
+		return size;
+	}
+	public void setSize(String size) {
+		this.size = size;
+	}
+	public String getColor() {
+		return color;
+	}
+	public void setColor(String color) {
+		this.color = color;
+	}
 	
 }
