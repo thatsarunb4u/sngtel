@@ -12,3 +12,8 @@ Chicken cannot fly. So, Flyable interface is not implemented. Another way of des
 #Solution A3
 ##Rational for chosen design
 A rooster shares a sibling relationship with chicken. Its on the same hierarchy level. Rooster can be modeled as an implementation of Bird and Singable interfaces. Another way of emphasizing this relationship could be using a NonFlyable interface and making both Chicken and Rooster implement them.  
+
+
+#Solution A4
+##Rational for chosen design
+The Parrot is expected to duplicate the sound of its neighbour. "State Design Pattern" comes very much handy in this design. The sing method changes based on the state of the parent, which in our scenario is the neighbour.
